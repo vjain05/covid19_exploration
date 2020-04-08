@@ -1,8 +1,12 @@
 We're doing a bit of open ended exploration of the coronavirus data provided by the New York Times. (https://github.com/nytimes/covid-19-data)
 
-    1. Under an initial simplified assumption, we can see how the coronavirus infections will exponentially escalate in the near future
+1. We make forecasts on coronavirus cases on US states through reframing the problem in terms of simple OLS regression and solving using a python convex optimization package.
 
-    2. Under a more complicated assumption, we can simulate how infections will spread and de-escalate over time. We can use this to show at a high level how government policies on social distancing can potentially affect capacity planning of our medical facilities. (Flatten the Curve: https://www.livescience.com/coronavirus-flatten-the-curve.html)
+2. Under some assumptions we construct an ordinary differential equation (ODE) and run simulations on different parameters to see different scenarios of how the infection could spread and saturate a given population (and the effects of mitigation measures on infection). 
+
+TODO:
+
+-parameter estimation of ODE to fit current data.
 
 Contents are in the jupyter notebook COVID-19_explore_20200328.ipynb
 
