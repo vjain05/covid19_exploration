@@ -6,4 +6,5 @@ We're doing a bit of open ended exploration of the coronavirus data provided by 
 
 Contents are in the jupyter notebook COVID-19_explore_20200328.ipynb
 
-
+us-states.csv contains data up to and including 20200326.
+To generate point-in-time snapshots run generate_PIT_data.sh
